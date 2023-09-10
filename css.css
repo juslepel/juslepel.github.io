@@ -31,7 +31,9 @@ body {background-color: black;
     font-family: 'Courier New', Courier, monospace;
     margin: 0;}
 
-.pers-info, .games, .concerten {width: max-content;position: relative;}
+.pers-info, .games, .concerts {width: max-content;position: relative;}
+.games {width: max-content;position: relative;}
+.concerts {width: max-content;position: relative;}
 .navi{width: max-content;
     position: -webkit-sticky; /*safari*/ 
     position: sticky;
@@ -41,8 +43,10 @@ body {background-color: black;
     margin:0;
     padding: 0;
     background-color: gray;}
-li{float: left;}
-li a, .asidebtn{display: block; 
+li{float: left;    position: -webkit-sticky; /*safari*/ 
+    position: sticky;}
+li a, .asidebtn{    position: -webkit-sticky; /*safari*/ 
+    position: sticky;display: block; 
     color: black;
     text-align: center; 
     padding: 14px 16px; 
@@ -79,9 +83,11 @@ header h1 {font-size: 300%;
 main {position: relative;
     text-align: center; 
     max-width: 50%;
+    width: max-content;
     top: 100px; 
     color: lightseagreen;
     margin-left: auto; 
     margin-right: auto;}
 img {width: 200px;
     position: relative;}
+hr {border-color: lightseagreen;background-color: lightseagreen; width: 200px;}

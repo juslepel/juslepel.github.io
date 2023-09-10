@@ -1,29 +1,34 @@
-body{margin: 0;}
+/*body{margin: 0;}
 header {color: lightseagreen;background-color: black;border: none;height: 100px;width: max-content;list-style-type: none;text-align: center;width: 100%;}
 nav { border: 0;
     padding: 0;
-    width: 18%;
+    width: 100%;
     background-color: gray;
     display: block;
     color: lightseagreen;
     top: 100px;
-    height:100%;}
+    height:10%;}
 ul .navi{position: fixed;
-    overflow: auto;
+    overflow: hidden;
     list-style-type:none;
     text-align: center;
     padding: 0;
     margin: 0;
     width: 15%;
-    background-color: gray; 
-    height: 100%;}
-li .navi{display: block; 
+    background-color: gray; }
+li a.navi{display: block; 
         padding: 8px 16px;
         text-decoration: none;
         text-align: center;}
-li .navi{color:black; 
+li a.navi{color:black; 
         list-style-type: none;}
-li .navi:hover:not(.active){background-color: black; color: lightseagreen;}
-li .active .navi{background-color: lightseagreen;color: black;}
+li a.navi:hover:not(.active){background-color: black; color: lightseagreen;}
+li a.active .navi{background-color: lightseagreen;color: black;}
 main {position: relative; left: 30%; max-width: 50%;top: 40%; color: lightseagreen;}
-body{font-family: 'Courier New', Courier, monospace;color: lightgray;}
+body{font-family: 'Courier New', Courier, monospace;color: lightgray;}*/
+
+ul {position: -webkit-sticky; /*safari*/ position: sticky;top: 0; width: 100%; list-style-type: none; margin:0;padding: 0;overflow: hidden;background-color: gray;}
+.navi{float: left;}
+.navi a{display: block; color: black;text-align: center; padding: 14px 16px; text-decoration: none;}
+.navi a:hover{background-color: black;color: gray;}
+.navi .active a{background-color: lightseagreen; color: black;}

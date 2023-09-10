@@ -28,12 +28,15 @@ main {position: relative; left: 30%; max-width: 50%;top: 40%; color: lightseagre
 body{font-family: 'Courier New', Courier, monospace;color: lightgray;}*/
 body {background-color: black;
     color: lightseagreen;
-    font-family: 'Courier New', Courier, monospace;}
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;}
 
-ul {position: -webkit-sticky; /*safari*/ 
+.pers-info, .games, .concerten {width: max-content;position: relative;}
+.navi{width: max-content;
+    position: -webkit-sticky; /*safari*/ 
     position: sticky;
+    position: relative;
     top: 0; 
-    width: 100%; 
     list-style-type: none; 
     margin:0;
     padding: 0;
@@ -55,7 +58,7 @@ li a, .asidebtn {display: inline-block;
     text-decoration: none;}
 li.aside {display: inline-block;position: relative;}
 .asidelinks {display: none; 
-    position: absolute;
+    position: relative;
     background-color: gray; 
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba (0,0,0,0.2);
@@ -73,3 +76,12 @@ header h1 {font-size: 300%;
     text-decoration:double;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
     text-align: center;}
+main {position: relative;
+    text-align: center; 
+    max-width: 50%;
+    top: 100px; 
+    color: lightseagreen;
+    margin-left: auto; 
+    margin-right: auto;}
+img {width: 200px;
+    position: relative;}

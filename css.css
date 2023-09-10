@@ -26,10 +26,29 @@ li a.navi:hover:not(.active){background-color: black; color: lightseagreen;}
 li a.active .navi{background-color: lightseagreen;color: black;}
 main {position: relative; left: 30%; max-width: 50%;top: 40%; color: lightseagreen;}
 body{font-family: 'Courier New', Courier, monospace;color: lightgray;}*/
-body {background-color: black;color: lightseagreen;font-family: 'Courier New', Courier, monospace;}
-ul {position: -webkit-sticky; /*safari*/ position: sticky;top: 0; width: 100%; list-style-type: none; margin:0;padding: 0;overflow: hidden;background-color: gray;}
+body {background-color: black;
+    color: lightseagreen;
+    font-family: 'Courier New', Courier, monospace;}
+ul {position: -webkit-sticky; /*safari*/ 
+    position: sticky;
+    top: 0; 
+    width: 100%; 
+    list-style-type: none; 
+    margin:0;padding: 0;
+    overflow: hidden;
+    background-color: gray;}
 li{float: left;}
-li a{display: block; color: black;text-align: center; padding: 14px 16px; text-decoration: none;}
-li a:hover{background-color: black;color: gray;}
-.active a{background-color: lightseagreen; color: black;}
-header h1 {font-size: 300%;background-color: black;text-decoration:double;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+li a{display: block; 
+    color: black;
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none;}
+li a:hover{background-color: black;
+    color: gray;}
+.active a{background-color: lightseagreen; 
+    color: black;}
+header h1 {font-size: 300%;
+    background-color: black;
+    text-decoration:double;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    text-align: center;}

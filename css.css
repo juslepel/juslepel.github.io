@@ -98,8 +98,8 @@ img {width: 200px;
     overflow: hidden;}
 hr {border-color: lightseagreen;background-color: lightseagreen; width: 200px;}
 /*dashboard*/
-table, th, td {border: 3px;
+table, td, th {border: 3px;
     border-collapse: collapse;
     border-color: lightseagreen;
 border-style: solid;}
-th {font-size: x-large;}
+th {font-size: x-large; color: black;background-color: lightseagreen;}

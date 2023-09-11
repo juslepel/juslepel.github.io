@@ -88,6 +88,7 @@ main{position: relative;
     color: lightseagreen;
     margin-left: auto; 
     margin-right: auto;}
+.footer {width: 100%;}
 img {width: 200px;
     position: relative;
     overflow: hidden;}

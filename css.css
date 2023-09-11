@@ -33,11 +33,8 @@ body {background-color: black;
 
 /*profile page*/
 .pers-info, .games, .concerts {width: max-content;
-    position: relative;}
-.games {width: max-content;
-    position: relative;}
-.concerts {width: max-content;
-    position: relative;}
+    position: relative;
+    text-align: left;}
 /*navbar en aside*/
 .navi{width: max-content;
     position: -webkit-sticky; /*safari*/ 
@@ -48,7 +45,7 @@ body {background-color: black;
     margin:0;
     padding: 0;
     background-color: gray;}
-li{float: left;    
+.nav, .active {float: left;    
     position: -webkit-sticky; /*safari*/ 
     position: sticky;}
 li a, .asidebtn{width:220px ; 

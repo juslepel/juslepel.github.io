@@ -36,7 +36,7 @@ body {background-color: black;
     position: relative;
     text-align: left;}
 /*navbar en aside*/
-.navi{width: max-content;
+.navi, .header{width: max-content;
     position: -webkit-sticky; /*safari*/ 
     position: sticky;
     position: fixed;

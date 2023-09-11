@@ -1,41 +1,36 @@
-/*body{margin: 0;}
-header {color: lightseagreen;background-color: black;border: none;height: 100px;width: max-content;list-style-type: none;text-align: center;width: 100%;}
-nav { border: 0;
-    padding: 0;
-    width: 100%;
-    background-color: gray;
-    display: block;
-    color: lightseagreen;
-    top: 100px;
-    height:10%;}
-ul .navi{position: fixed;
-    overflow: hidden;
-    list-style-type:none;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    width: 15%;
-    background-color: gray; }
-li a.navi{display: block; 
-        padding: 8px 16px;
-        text-decoration: none;
-        text-align: center;}
-li a.navi{color:black; 
-        list-style-type: none;}
-li a.navi:hover:not(.active){background-color: black; color: lightseagreen;}
-li a.active .navi{background-color: lightseagreen;color: black;}
-main {position: relative; left: 30%; max-width: 50%;top: 40%; color: lightseagreen;}
-body{font-family: 'Courier New', Courier, monospace;color: lightgray;}*/
 body {background-color: black;
     color: lightseagreen;
     font-family: 'Courier New', Courier, monospace;
     margin: 0;}
-
-/*profile page*/
+    /*profile page*/
 .pers-info, .games, .concerts {width: max-content;
     position: relative;
     text-align: left;}
-/*navbar en aside*/
+    /*dashboard*/
+table, td, th {border: 3px;
+    border-collapse: collapse;
+    border-color: lightseagreen;
+border-style: solid;}
+th {font-size: x-large; color: black;background-color: lightseagreen;}
+    /*blog*/
+.column {height: 500px; 
+    text-align: center; 
+    color: black; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 120px; 
+    width: 40%;
+    background: lightseagreen;}
+.card {background-color: gray;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;}
+.row:after {content:"";
+    display:table;
+    clear: both;}
+    /*navbar en aside*/
 .navi, .header{width: max-content;
     position: -webkit-sticky; /*safari*/ 
     position: sticky;
@@ -97,9 +92,3 @@ img {width: 200px;
     position: relative;
     overflow: hidden;}
 hr {border-color: lightseagreen;background-color: lightseagreen; width: 200px;}
-/*dashboard*/
-table, td, th {border: 3px;
-    border-collapse: collapse;
-    border-color: lightseagreen;
-border-style: solid;}
-th {font-size: x-large; color: black;background-color: lightseagreen;}

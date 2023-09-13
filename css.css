@@ -15,14 +15,14 @@ body {
 
     /*dashboard*/
 
-table, td, th {
+.flex-container table,.flex-container td,.flex-container th {
     border: 3px;
     border-collapse: collapse;
     border-color: lightseagreen;
     border-style: solid;
 }
 
-th {
+.flex-container th{
     font-size: x-large;
     color: black;
     background-color: lightseagreen;
@@ -47,6 +47,39 @@ th {
 }
 
     /*index*/
+.proscons table, .proscons td, .proscons th{
+    border: 3px;
+    border-collapse: collapse;
+    border-color: lightseagreen;
+    border-style: solid;
+    text-align: center;
+}
+
+.proscons th{
+    font-size: x-large;
+    color: lightseagreen;
+    background-color: black;
+}
+
+.pros {
+    color: lightseagreen;
+    background-color: rgb(9, 65, 9);
+}
+
+.cons {
+    color: lightseagreen;
+    background-color: rgb(67, 0, 0);
+}
+
+.pro{
+    color:lightseagreen;
+    background-color: rgba(9,65,9,0.5);
+}
+
+.con{
+    color: lightseagreen;
+    background-color: rgba(67,0,0,0.4);
+}
 
 .inhoudd {
     height: 500px; 
@@ -104,6 +137,21 @@ th {
     clear: both;
 }
 
+/*faq*/
+
+.faq {
+    list-style-type: none;
+}
+
+.links {
+    background-color:gray;
+    color: lightseagreen;
+}
+
+.links:hover{
+    background-color:gray;
+    color: black;
+}
     /*navbar en aside*/
 
 .navi, .header {

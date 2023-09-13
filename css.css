@@ -47,11 +47,10 @@ body {
 }
 
     /*index*/
-.proscons table, .proscons td, .proscons th{
+.proscons table, .proscons th{
     border: 3px;
     border-collapse: collapse;
     border-color: lightseagreen;
-    border-style: solid;
     text-align: center;
     list-style-type: none;
 }
@@ -62,24 +61,42 @@ body {
     background-color: black;
 }
 
+.schooloption{
+    background-color: lightseagreen;
+    color:black ;
+    list-style-type: none;
+}
+
+.schooloption:hover{
+    background-color: black;
+    color: lightseagreen;
+    list-style-type: none;
+}
+
 .pros {
     color: lightseagreen;
     background-color: rgb(9, 65, 9);
+    text-align: left;
 }
 
 .cons {
     color: lightseagreen;
     background-color: rgb(67, 0, 0);
+    text-align: left;
 }
 
 .pro{
     color:lightseagreen;
     background-color: rgba(9,65,9,0.5);
+    list-style-type: none;
+    text-align: left;
 }
 
 .con{
     color: lightseagreen;
     background-color: rgba(67,0,0,0.4);
+    list-style-type: none;
+    text-align: left;
 }
 
 .inhoudd {

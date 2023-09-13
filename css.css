@@ -4,7 +4,6 @@ body {background-color: black;
     margin: 0;}
     /*profile page*/
 .pers-info, .games, .concerts {width: max-content;
-    position: relative;
     text-align: left;}
     /*dashboard*/
 table, td, th {border: 3px;
@@ -17,17 +16,37 @@ th {font-size: x-large; color: black;background-color: lightseagreen;}
 .test-unkown{background-color: darkorange;}
 .test-sufficient {background-color: darkcyan; color: black;}
 .test-insufficient {background-color: darkred;}
+    /*index*/
+    .inhoudd {height: 500px; 
+        text-align: center; 
+        color: black; 
+        margin-left: auto; 
+        margin-right: auto; 
+        margin-top: 120px; 
+        width: 60%;
+        background:black;
+        color: lightseagreen;}
+    .inhouddd {background-color: black;
+        color: lightseagreen;
+        margin-bottom: 20px;
+        margin-top: 60px;
+        padding: 20px;
+        margin-left: 20px;
+        margin-right: 20px;}
+    .inhoud:after {content:"";
+        display:table;
+        clear: both;}
     /*blog*/
 .column {height: 500px; 
     text-align: center; 
     color: black; 
     margin-left: auto; 
     margin-right: auto; 
-    margin-top: 120px; 
+    margin-top: 120px;
     width: 40%;
     background:black;}
 .card {background-color: gray;
-    margin-bottom: 20px;
+    margin-bottom: 2%;
     margin-top: 60px;
     padding: 20px;
     margin-left: 20px;
@@ -79,23 +98,12 @@ li.aside {display: inline-block;position: relative;}
     color: lightseagreen;}
 .aside:hover .asidelinks {display:block;}
 
-.header {font-size: 300%;
+.header {font-size: 250%;
     padding: 30px;
     background-color: black;
     text-decoration:double;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
     text-align: center;}
-main{position: relative;
-    text-align: center; 
-    max-width: 50%;
-    width: max-content;
-    top: 100px; 
-    color: lightseagreen;
-    margin-left: auto; 
-    margin-right: auto;
-    overflow: hidden;}
 .footer {width: 100%;}
-img {width: 200px;
-    position: relative;
-    overflow: hidden;}
+img {width: 200px;}
 hr {border-color: lightseagreen;background-color:lightseagreen; width: 200px;}

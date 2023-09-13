@@ -1,61 +1,113 @@
-body {background-color: black;
+body {
+    background-color: black;
     color: lightseagreen;
     font-family: 'Courier New', Courier, monospace;
-    margin: 0;}
+    margin: 0;
+}
+
     /*profile page*/
-.pers-info, .games, .concerts {width: max-content;
-    text-align: left;}
+
+.pers-info, .games, .concerts {
+    width: max-content;
+    text-align: left;
+    list-style: none;
+}
+
     /*dashboard*/
-table, td, th {border: 3px;
+
+table, td, th {
+    border: 3px;
     border-collapse: collapse;
     border-color: lightseagreen;
-border-style: solid;}
-th {font-size: x-large; color: black;background-color: lightseagreen;}
-.grades {background-color: lightgray;
-    width: 500px;}
-.test-unkown{background-color: darkorange;}
-.test-sufficient {background-color: darkcyan; color: black;}
-.test-insufficient {background-color: darkred;}
+    border-style: solid;
+}
+
+th {
+    font-size: x-large;
+    color: black;
+    background-color: lightseagreen;
+}
+
+.grades {
+    background-color: lightgray;
+    width: 500px;
+}
+
+.test-unkown {
+    background-color: darkorange;
+}
+
+.test-sufficient {
+    background-color: darkcyan;
+    color: black;
+}
+
+.test-insufficient {
+    background-color: darkred;
+}
+
     /*index*/
-    .inhoudd {height: 500px; 
-        text-align: center; 
-        color: black; 
-        margin-left: auto; 
-        margin-right: auto; 
-        margin-top: 120px; 
-        width: 60%;
-        background:black;
-        color: lightseagreen;}
-    .inhouddd {background-color: black;
-        color: lightseagreen;
-        margin-bottom: 20px;
-        margin-top: 60px;
-        padding: 20px;
-        margin-left: 20px;
-        margin-right: 20px;}
-    .inhoud:after {content:"";
-        display:table;
-        clear: both;}
-    /*blog*/
-.column {height: 500px; 
+
+.inhoudd {
+    height: 500px; 
+    text-align: center; 
+    color: black; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 120px; 
+    width: 60%;
+    background:black;
+    color: lightseagreen;
+}
+
+.inhouddd {
+    background-color: black;
+    color: lightseagreen;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.inhoud:after {
+    content:"";
+    display:table;
+    clear: both;
+}
+
+/*blog*/
+
+.column {
+    height: 500px; 
     text-align: center; 
     color: black; 
     margin-left: auto; 
     margin-right: auto; 
     margin-top: 120px;
     width: 40%;
-    background:black;}
-.card {background-color: gray;
+    background:black;
+}
+
+.card {
+    background-color: gray;
     margin-bottom: 2%;
     margin-top: 60px;
     padding: 20px;
     margin-left: 20px;
-    margin-right: 20px;}
-.row:after {content:"";
+    margin-right: 20px;
+}
+
+.row:after {
+    content:"";
     display:table;
-    clear: both;}
+    clear: both;
+}
+
     /*navbar en aside*/
-.navi, .header{width: max-content;
+
+.navi, .header {
+    width: max-content;
     position: -webkit-sticky; /*safari*/ 
     position: sticky;
     position: fixed;
@@ -63,47 +115,89 @@ th {font-size: x-large; color: black;background-color: lightseagreen;}
     list-style-type: none; 
     margin:0;
     padding: 0;
-    background-color: gray;}
-.nav, .active {float: left;    
+    background-color: gray;
+}
+
+.nav, .active {
+    float: left;    
     position: -webkit-sticky; /*safari*/ 
-    position: sticky;}
-li a, .asidebtn{width:220px ; 
+    position: sticky;
+}
+
+li a, .asidebtn {
+    width:220px ; 
     position: -webkit-sticky; /*safari*/ 
-    position: sticky;display: block; 
+    position: sticky;
+    color: black; 
+    background-color: gray;
+}
+
+li a:hover, .aside:hover, .asidebtn {
+    background-color: black;
+    color: gray;
+}
+
+.active a {
+    background-color: lightseagreen; 
     color: black;
-    text-align: center; 
-    padding: 14px 16px; 
-    text-decoration: none;
-    background-color: gray;}
-li a:hover, .aside:hover .asidebtn{background-color: black;
-    color: gray;}
-.active a{background-color: lightseagreen; 
-    color: black;}
-li a, .asidebtn {display: inline-block;
+}
+
+li a, .asidebtn {
+    display: inline-block;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;}
-li.aside {display: inline-block;position: relative;}
-.asidelinks {display: none; 
+    text-decoration: none;
+}
+
+li.aside {
+    display: inline-block;
+    position: relative;
+}
+
+.asidelinks {
+    display: none; 
     position: relative;
     background-color: gray; 
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba (0,0,0,0.2);
-    z-index: 1;}
-.asidelinks a{color:black;
+    z-index: 1;
+}
+
+.asidelinks a {
+    color:black;
     padding: 12px 16px;
     text-decoration: none;
-    display: block;}
-.asidelinks a:hover {background-color: gray;
-    color: lightseagreen;}
-.aside:hover .asidelinks {display:block;}
+    display: block;
+}
 
-.header {font-size: 250%;
+.asidelinks a:hover {
+    background-color: gray;
+    color: lightseagreen;
+}
+
+.aside:hover .asidelinks {
+    display:block;
+}
+
+.header {
+    font-size: 250%;
     padding: 30px;
     background-color: black;
     text-decoration:double;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-    text-align: center;}
-.footer {width: 100%;}
-img {width: 200px;}
-hr {border-color: lightseagreen;background-color:lightseagreen; width: 200px;}
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+}
+
+img {
+    width: 200px;
+}
+
+hr {
+    border-color: lightseagreen;
+    background-color:lightseagreen; 
+    width: 200px;
+}

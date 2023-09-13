@@ -53,6 +53,7 @@ body {
     border-color: lightseagreen;
     border-style: solid;
     text-align: center;
+    list-style-type: none;
 }
 
 .proscons th{

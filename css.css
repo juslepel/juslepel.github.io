@@ -12,6 +12,11 @@ table, td, th {border: 3px;
     border-color: lightseagreen;
 border-style: solid;}
 th {font-size: x-large; color: black;background-color: lightseagreen;}
+.grades {background-color: lightgray;
+    width: 500px;}
+.test-unkown{background-color: darkorange;}
+.test-sufficient {background-color: darkcyan; color: black;}
+.test-insufficient {background-color: darkred;}
     /*blog*/
 .column {height: 500px; 
     text-align: center; 
@@ -20,7 +25,7 @@ th {font-size: x-large; color: black;background-color: lightseagreen;}
     margin-right: auto; 
     margin-top: 120px; 
     width: 40%;
-    background: lightseagreen;}
+    background:black;}
 .card {background-color: gray;
     margin-bottom: 20px;
     margin-top: 60px;
@@ -87,9 +92,10 @@ main{position: relative;
     top: 100px; 
     color: lightseagreen;
     margin-left: auto; 
-    margin-right: auto;}
+    margin-right: auto;
+    overflow: hidden;}
 .footer {width: 100%;}
 img {width: 200px;
     position: relative;
     overflow: hidden;}
-hr {border-color: lightseagreen;background-color: lightseagreen; width: 200px;}
+hr {border-color: lightseagreen;background-color:lightseagreen; width: 200px;}

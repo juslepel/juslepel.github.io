@@ -129,6 +129,10 @@ body {
 
 /*blog*/
 
+.card a{
+    color: black;
+}
+
 .column {
     height: 500px; 
     text-align: center; 
@@ -172,7 +176,7 @@ body {
 }
     /*navbar en aside*/
 
-.navi, .header {
+.navi, .header{
     width: max-content;
     position: -webkit-sticky; /*safari*/ 
     position: sticky;
@@ -184,13 +188,13 @@ body {
     background-color: gray;
 }
 
-.nav, .active {
+.nav, .active, .blog{
     float: left;    
     position: -webkit-sticky; /*safari*/ 
     position: sticky;
 }
 
-li a, .asidebtn {
+li a, .asidebtn, .blogbtn {
     width:220px ; 
     position: -webkit-sticky; /*safari*/ 
     position: sticky;
@@ -198,24 +202,37 @@ li a, .asidebtn {
     background-color: gray;
 }
 
-li a:hover, .aside:hover, .asidebtn {
+li a:hover, .aside:hover, .asidebtn, .activeblog:hover, .blogbtn:hover, .asidelinks .blogbtn:hover, .navblog:hover{
     background-color: black;
     color: gray;
 }
 
-.active a {
-    background-color: lightseagreen; 
+.blogbtn{
+    background-color: lightseagreen;
     color: black;
 }
 
-li a, .asidebtn {
+.blogbtn:hover, .asidelinks .blogbtn:hover{
+    background-color: black;
+    color: gray;
+}
+
+.active a, .activeblog a{
+    background-color: lightseagreen; 
+    color: black;
+}
+.navblog a{
+    background-color: gray;
+    color: black;
+}
+li a, .asidebtn, .blogbtn{
     display: inline-block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-li.aside {
+li.aside, li.activeblog, li.navblog {
     display: inline-block;
     position: relative;
 }
@@ -241,7 +258,7 @@ li.aside {
     color: lightseagreen;
 }
 
-.aside:hover .asidelinks {
+.aside:hover .asidelinks, .activeblog:hover .asidelinks, .navblog:hover .asidelinks{
     display:block;
 }
 

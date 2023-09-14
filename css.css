@@ -73,6 +73,12 @@ body {
     list-style-type: none;
 }
 
+.schooloption a{
+    list-style-type: none;
+}
+tr .schooloption{
+    list-style-type: none;
+}
 .pros {
     color: lightseagreen;
     background-color: rgb(9, 65, 9);
@@ -181,6 +187,7 @@ body {
     position: -webkit-sticky; /*safari*/ 
     position: sticky;
     position: fixed;
+    z-index: 500;
     top: 0; 
     list-style-type: none; 
     margin:0;

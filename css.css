@@ -105,7 +105,7 @@ tr .schooloption{
     text-align: left;
 }
 
-.inhoudd {
+.textcontainer {
     height: 500px; 
     text-align: center; 
     color: black; 
@@ -117,7 +117,7 @@ tr .schooloption{
     color: lightseagreen;
 }
 
-.inhouddd {
+.textcard {
     background-color: black;
     color: lightseagreen;
     margin-bottom: 20px;
@@ -127,7 +127,7 @@ tr .schooloption{
     margin-right: 20px;
 }
 
-.inhoud:after {
+.textborder:after {
     content:"";
     display:table;
     clear: both;
